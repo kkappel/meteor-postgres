@@ -14,22 +14,21 @@ Exeption Handling
 Run the following from your command line.
 
 ```
-    meteor add storeness:meteor-postgres
+    meteor add kkappel:meteor-postgres
 ```
 
 or add this to your `package.js`
 
 ```
-    api.use('storeness:meteor-postgres');
+    api.use('kkappel:meteor-postgres');
 ```
 
 ### Usage
 
-To get started you might want to take a look at the [todo-example
-code](https://github.com/storeness/meteor-postgres/blob/simple-todo.js). You can run
-the code by cloning this repo locally and start it by running
-`MP_POSTGRES=postgres://{username}:{password}@{host}:{port}/{database}
-meteor` inside the cloned directory.
+To get started you might want to take a look at the todo-example
+code. You can run the code by cloning this repo locally and start it by running
+`MP_POSTGRES=postgres://{username}:{password}@{host}:{port}/{database} meteor` 
+inside the cloned directory.
 
 ### Tests
 
