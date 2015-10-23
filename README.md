@@ -3,21 +3,11 @@
 Adds postgres support to Meteor via `SQL.Collection`, which is similar to
 `Mongo.Collection` and provides the same functionality namely livequery, pub/sub, latency compensation and client side cache.
 
-Still I would not recommend using it in production yet as the ORM layer is open for SQL-injections. You can check out [this SQL package blueprint](https://github.com/storeness/sql) for a
-possible more sophisticated SQL implementation that could support most popular SQL
-Databases, Models and Migrations.
+Still I would not recommend using it in production yet as the ORM layer is open for SQL-injections.
 
-### Improvements
+### TODOS
 
-- Tests
-- Proper support for IDs (including strings)
-- Cleaner code and API
-- Support of underscores in table and column names
-- Many bug fixes including
-  - errors on creating existent tables (convenient for server startup)
-  - postgres client event leak
-  - alasql column bug
-- Working example
+Exeption Handling
 
 ### Installation
 
